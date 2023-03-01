@@ -16,11 +16,11 @@ class Customer:
         self.account = []
         self.loggedin = False
    
-        
+#FOR NEW CUSTOMERS        
     def create_account(self):
             self.customer_name = input("Enter your full name: ").capitalize()
             self.customer_phone = input("Enter your phone number: ")
-            self.account_type = input("Enter type of account (enter 1 for Savings/ enter 2 for Current): ")
+            self.account_type = input("Enter type of account (Savings OR Current): ")
             self.account_number = random.randint(1000000000, 9999999999)
             self.customer_pin = input("Enter your 4-digit PIN: ")
             self.customer_balance = "0.0"
@@ -64,7 +64,7 @@ class Customer:
             logger.log_activity(f"{self.customer_name}made a deposit of {amount} into the account")
             print(f"Deposit successful! New balance is {self.customer_balance}")
 
-
+#TO WITHDRAW
     def withdraw(self):
         amount = float(input("Enter amount to withdraw: "))
         b = int(self.customer_balance)
