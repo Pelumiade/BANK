@@ -1,4 +1,4 @@
-A BANKING APP(CONSOLE APPLICATION)
+A BANKING APP (CONSOLE APPLICATION)
 
 
 This is a banking app (a console application) using python Class and methods.
@@ -10,6 +10,8 @@ This app contains three menu:
 
 
 THE ADMIN
+
+
 This is a Python code for a basic staff management system that allows an admin to perform several tasks such as creating staff, viewing staff and customer activities, suspending or reactivating staff, and logging out.
 
 The code imports the necessary modules including csv for working with CSV files, datetime for handling dates and times, and random and string for generating random passwords.
@@ -30,6 +32,8 @@ logout: A method that sets the logged_in attribute to False and prints a success
 
 
 THE STAFF
+
+
 This Python code defines a class Staff which provides functionalities for staff of a bank. The class has methods for logging in, depositing money into a customer's account, checking a customer's account balance, and viewing the staff log.
 
 The Staff class imports csv, datetime, customer, log, and admin modules from respective files. It then instantiates an Admin object admin, a Log object log, and a Logger object logger. A Customer object is also instantiated, but its attributes are initialized with placeholder values.
