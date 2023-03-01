@@ -2,7 +2,6 @@ from customer import Customer
 from admin import Admin
 from staff import Staff
 import csv
-##from admin import Admin
 customers = []
 
 def main():
