@@ -1,0 +1,48 @@
+Date,Time,Activity
+2023-02-27,19:41:56.047144,ayo mide DEPOSIT 12345.0 INTO account
+2023-02-27,19:53:06.328655,ayo mide check his account balance
+2023-02-27,19:53:19.054049,ayo midemade a withdrawal  of 130000.0 from the account
+2023-02-28,06:32:11.331929,ayo midemade a deposit of 200000 into the account by 
+2023-02-28,06:32:37.749994,ayo mide logged  into the account
+2023-02-28,06:32:42.423922,ayo mide check his account balance
+2023-02-28,06:39:53.099872,ayo mide logged  into the account
+2023-02-28,06:40:05.471430,ayo midemade a deposit of 20000.0 into the account
+2023-02-28,06:54:27.174179,ayo midemade a deposit of 300000.0 into the account by 
+2023-02-28,06:54:59.463376,ayo mide logged  into the account
+2023-02-28,06:55:03.325060,ayo mide check his account balance
+2023-02-28,09:04:30.722710,ayo mide logged  into the account
+2023-02-28,09:13:15.896664,ayo mide logged  into the account
+2023-02-28,09:13:19.671653,ayo mide check his account balance
+2023-02-28,11:29:01.889108,ayo midemade a deposit of 450000.0 into the account by 
+2023-02-28,12:53:15.714209,Olu banke logged  into the account
+2023-02-28,12:53:21.909286,Olu bankemade a deposit of 12345678.0 into the account
+2023-02-28,12:53:39.143953,Olu banke made a withdrawal of 100000.0 from the account
+2023-02-28,12:53:55.121601,Olu banke check his account balance
+2023-02-28,12:55:44.717897,Funmi lowo logged  into the account
+2023-02-28,12:57:31.137876,Funmi lowomade a deposit of 23456789.0 into the account
+2023-02-28,12:57:39.903288,"Funmi lowo made a transfer of $1234.0 into the {'account_number': '1743147467', 'name': 'Olu banke', 'phone': '2345678', 'account_type': 'savings', 'password': '1234', 'balance': '12246912.0'} account"
+2023-02-28,12:59:58.039927,Olu banke logged  into the account
+2023-02-28,13:00:03.078845,Olu banke check his account balance
+2023-02-28,13:00:32.167386,"Olu banke made a transfer of $10000.0 into the {'account_number': '1329107488', 'name': 'ayo mide', 'phone': '3456789', 'account_type': 'savings', 'password': '1234', 'balance': '785801.0'} account"
+2023-02-28,13:01:58.924250,Funmi lowo logged  into the account
+2023-02-28,13:02:02.688743,Funmi lowo check his account balance
+2023-02-28,13:03:43.268442,Olu banke logged  into the account
+2023-02-28,13:03:44.431580,Olu banke check his account balance
+2023-02-28,13:04:18.233453,Olu banke logged  into the account
+2023-02-28,13:04:23.289528,Olu banke check his account balance
+2023-02-28,13:04:59.691933,"Olu banke made a transfer of $1000000.0 into the {'account_number': '9214377857', 'name': 'Funmi lowo', 'phone': '2345678', 'account_type': 'savings', 'password': '1234', 'balance': '24455555.0'} account"
+2023-02-28,13:05:14.648519,Funmi lowo logged  into the account
+2023-02-28,13:05:15.886438,Funmi lowo check his account balance
+2023-02-28,13:40:14.557749,Dan danny logged  into the account
+2023-02-28,13:40:49.283824,Dan danny check his account balance
+2023-02-28,13:41:03.073469,Dan dannymade a deposit of 93000000.0 into the account
+2023-02-28,13:41:44.053894,Dan danny check his account balance
+2023-02-28,13:49:39.609515,Dan danny logged  into the account
+2023-02-28,13:50:04.182498,Dan dannymade a deposit of 340000000.0 into the account
+2023-02-28,13:50:57.941932,Dan danny logged  into the account
+2023-02-28,13:51:33.634904,"Dan danny made a transfer of $1000000.0 into the {'account_number': '8104808754', 'name': 'Afo labi', 'phone': '08012356745', 'account_type': '2', 'password': '1234', 'balance': '1000000.0'} account"
+2023-02-28,13:51:33.634904,"{'account_number': '8104808754', 'name': 'Afo labi', 'phone': '08012356745', 'account_type': '2', 'password': '1234', 'balance': '1000000.0'} received  $1000000.0 from Dan danny"
+2023-02-28,13:51:48.048002,Dan danny check his account balance
+2023-02-28,13:57:01.869325,Dan danny logged  into the account
+2023-02-28,13:57:06.609079,Dan danny made a withdrawal of 200.0 from the account
+2023-02-28,14:02:14.913934,Dan dannymade a deposit of 10000000.0 into the account by 
