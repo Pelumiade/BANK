@@ -61,8 +61,8 @@ class Customer:
                 log_writer.writerow([self.account_number, self.customer_name, datetime.now().strftime("%Y-%m-%d %H:%M:%S"), "DEPOSIT", amount])
             self.save_to_file()
             self.update_account_file()
-            logger.log_activity(f"{self.customer_name}made a deposit of {amount} into the account")
-            print(f"Deposit successful! New balance is {self.customer_balance}")
+            logger.log_activity(f"{self.customer_name}made a deposit of ${amount} into the account")
+            print(f"Deposit successful! New balance is ${self.customer_balance}")
 
 #TO WITHDRAW
     def withdraw(self):
@@ -78,7 +78,7 @@ class Customer:
             log_writer.writerow([self.account_number, self.customer_name, datetime.now().strftime("%Y-%m-%d %H:%M:%S"), "WITHDRAWAL", amount])
         self.save_to_file()
         self.update_account_file()
-        logger.log_activity(f"{self.customer_name } made a withdrawal of {amount} from the account")
+        logger.log_activity(f"{self.customer_name } made a withdrawal of ${amount} from the account")
         print(f"Withdrawal successful! New balance is ${self.customer_balance}")
         
     def save_to_file(self):
@@ -150,11 +150,11 @@ class Customer:
                 writer.writerow(row)
         logger.log_activity(f"{self.customer_name} made a transfer of ${amount} into the {recipient_account} account")
         logger.log_activity(f"{recipient_account} received  ${amount} from {self.customer_name}")
-        print(f"Transfer successful! New balance is {self.customer_balance}")
+        print(f"Transfer successful! New balance is ${self.customer_balance}")
 
  #TO VIEW BALANCE  
     def view_balance(self):
-            print (f'your current account balnce is: {self.customer_balance}')
+            print (f'your current account balnce is: ${self.customer_balance}')
             logger.log_activity(f"{self.customer_name} check his account balance")
             return self.customer_balance
 
