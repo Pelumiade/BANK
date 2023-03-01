@@ -27,7 +27,7 @@ class Staff:
                     password = input("Enter password: ")
                     if row[1] == password:
                         print("Login Successful!")
-                        log.log_activity(f"{self.staff_username} logged in successfully")
+                        log.log_activity(f"{username} logged in successfully")
 
                         # Offer to change password
                         change_password = input("Do you want to change your password? (y/n)").lower()
@@ -39,7 +39,7 @@ class Staff:
                                 staff_writer = csv.writer(staff_file)
                                 staff_writer.writerows(rows)
                             print("Password changed successfully!")
-
+                            log.log_activity(f"{username} changed password successfully")
                         return True
         print("Incorrect username or password!")
         return False
@@ -55,6 +55,7 @@ class Staff:
                     return False
                 elif row[0] == username and row[1] == password and row[3] == "Active":
                     print("Login Successful!")
+                    log.log_activity(f"{username} logged in successfully")
                     return True
             else:
                 print("Incorrect username or password!")
@@ -84,7 +85,7 @@ class Staff:
         customer.save_to_file()
         customer.update_account_file()
         logger.log_activity(f"{customer.customer_name}made a deposit of {amount} into the account by{self.staff_username} ")
-        log.log_activity(f"{self.staff_username}made a deposit of {amount} into the {customer.customer_name},{customer.account_number}")
+        #log.log_activity(f"{username}made a deposit of {amount} into the {customer.customer_name},{customer.account_number}")
         print(f"Deposit successful! New balance is of {customer.customer_name} is {customer.customer_balance}")
  
     
@@ -101,6 +102,7 @@ class Staff:
                     customer.customer_pin = row['password']
                     customer.customer_balance = float(row['balance'])
                     print(f"Account Name: {customer.customer_name}\nAccount Number: {customer.account_number}\nBalance: {customer.customer_balance}")
+                    #log.log_activity(f"staff {username} checked the account balance of {customer.customer_name}\nAccount Number: {customer.account_number} ")
                     return
         print("Account not found.")
 
